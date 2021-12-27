@@ -1,7 +1,33 @@
 <nb-card>
   <nb-card-body class="card">
+    <div class="progress-bar">
+      <div class="step" (click)="verPrimerStep()">
+        <div class="bullet" #bullet1>
+          <span>1</span>
+        </div>
+        <p class="step-title">Nominación</p>
+      </div>
+      <div class="step" (click)="verSegundoStep()">
+        <div class="bullet" #bullet2>
+          <span>2</span>
+        </div>
+        <p class="step-title">Prospectos</p>
+      </div>
+      <div class="step" (click)="verTercerStep()">
+        <div class="bullet" #bullet3>
+          <span>3</span>
+        </div>
+        <p class="step-title">Arrival & Departure Conditions</p>
+      </div>
+      <div class="step" (click)="verCuartoStep()">
+        <div class="bullet" #bullet4>
+          <span>4</span>
+        </div>
+        <p class="step-title">Información extra</p>
+      </div>
+    </div>
     <form>
-      <div class="step-1" #formContent>
+      <div class="part-1" #formContent>
         <div class="form-content-container">
           <div class="form-column">
             <label for="example">
@@ -47,7 +73,7 @@
           </button>
         </div>
       </div>
-      <div class="step">
+      <div class="part">
         <div class="form-content-container">
           <div class="form-column">
             <label for="example">
@@ -96,7 +122,7 @@
           </button>
         </div>
       </div>
-      <div class="step">
+      <div class="part">
         <div class="form-content-container">
           <div class="form-column">
             <label for="example">
@@ -145,7 +171,7 @@
           </button>
         </div>
       </div>
-      <div class="step">
+      <div class="part">
         <div class="form-content-container">
           <div class="form-column">
             <label for="example">
