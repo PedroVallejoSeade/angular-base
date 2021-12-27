@@ -1,3 +1,193 @@
 <nb-card>
-  <nb-card-body> Card </nb-card-body>
+  <nb-card-body class="card">
+    <form>
+      <div class="step-1" #formContent>
+        <div class="form-content-container">
+          <div class="form-column">
+            <label for="example">
+              Example
+              <input
+                type="text"
+                id="example"
+                placeholder="Escribe aquí"
+                autocomplete="off"
+              />
+            </label>
+          </div>
+          <div class="form-column">
+            <label for="example">
+              Example
+              <input
+                type="text"
+                id="example"
+                placeholder="Escribe aquí"
+                autocomplete="off"
+              />
+            </label>
+          </div>
+          <div class="form-column">
+            <label for="example">
+              Example
+              <input
+                type="text"
+                id="example"
+                placeholder="Escribe aquí"
+                autocomplete="off"
+              />
+            </label>
+          </div>
+        </div>
+        <div class="form-button-container-first-last">
+          <button
+            class="boton-siguiente"
+            type="button"
+            (click)="verSegundoStep()"
+          >
+            SIGUIENTE
+          </button>
+        </div>
+      </div>
+      <div class="step">
+        <div class="form-content-container">
+          <div class="form-column">
+            <label for="example">
+              Example
+              <input
+                type="text"
+                id="example"
+                placeholder="Escribe aquí"
+                autocomplete="off"
+              />
+            </label>
+          </div>
+          <div class="form-column">
+            <label for="example">
+              Example
+              <input
+                type="text"
+                id="example"
+                placeholder="Escribe aquí"
+                autocomplete="off"
+              />
+            </label>
+          </div>
+          <div class="form-column">
+            <label for="example">
+              Example
+              <input
+                type="text"
+                id="example"
+                placeholder="Escribe aquí"
+                autocomplete="off"
+              />
+            </label>
+          </div>
+        </div>
+        <div class="form-button-container">
+          <button class="boton-atras" type="button" (click)="verPrimerStep()">
+            ATRÁS
+          </button>
+          <button
+            class="boton-siguiente"
+            type="button"
+            (click)="verTercerStep()"
+          >
+            SIGUIENTE
+          </button>
+        </div>
+      </div>
+      <div class="step">
+        <div class="form-content-container">
+          <div class="form-column">
+            <label for="example">
+              Example
+              <input
+                type="text"
+                id="example"
+                placeholder="Escribe aquí"
+                autocomplete="off"
+              />
+            </label>
+          </div>
+          <div class="form-column">
+            <label for="example">
+              Example
+              <input
+                type="text"
+                id="example"
+                placeholder="Escribe aquí"
+                autocomplete="off"
+              />
+            </label>
+          </div>
+          <div class="form-column">
+            <label for="example">
+              Example
+              <input
+                type="text"
+                id="example"
+                placeholder="Escribe aquí"
+                autocomplete="off"
+              />
+            </label>
+          </div>
+        </div>
+        <div class="form-button-container">
+          <button class="boton-atras" type="button" (click)="verSegundoStep()">
+            ATRÁS
+          </button>
+          <button
+            class="boton-siguiente"
+            type="button"
+            (click)="verCuartoStep()"
+          >
+            SIGUIENTE
+          </button>
+        </div>
+      </div>
+      <div class="step">
+        <div class="form-content-container">
+          <div class="form-column">
+            <label for="example">
+              Example
+              <input
+                type="text"
+                id="example"
+                placeholder="Escribe aquí"
+                autocomplete="off"
+              />
+            </label>
+          </div>
+          <div class="form-column">
+            <label for="example">
+              Example
+              <input
+                type="text"
+                id="example"
+                placeholder="Escribe aquí"
+                autocomplete="off"
+              />
+            </label>
+          </div>
+          <div class="form-column">
+            <label for="example">
+              Example
+              <input
+                type="text"
+                id="example"
+                placeholder="Escribe aquí"
+                autocomplete="off"
+              />
+            </label>
+          </div>
+        </div>
+        <div class="form-button-container">
+          <button class="boton-atras" type="button" (click)="verTercerStep()">
+            ATRÁS
+          </button>
+          <button class="boton-siguiente" type="button">TERMINAR</button>
+        </div>
+      </div>
+    </form>
+  </nb-card-body>
 </nb-card>
