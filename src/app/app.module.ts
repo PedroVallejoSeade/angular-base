@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NbThemeModule, NbSidebarModule, NbLayoutModule, NbButtonModule } from '@nebular/theme';
+import { NbThemeModule, NbSidebarModule, NbLayoutModule, NbButtonModule, NbCardModule } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { ViajesDetalleComponent } from './viajes-detalle/viajes-detalle.component';
 
@@ -21,7 +21,8 @@ import { ViajesDetalleComponent } from './viajes-detalle/viajes-detalle.componen
     NbLayoutModule,
     NbEvaIconsModule,
     NbSidebarModule.forRoot(),
-    NbButtonModule
+    NbButtonModule,
+    NbCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
